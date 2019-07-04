@@ -11,4 +11,5 @@ rule "RN_13"
 		res : respuesta( )
 	then
 		res.setResultado( "NEGADO" );
+		System.out.println("Regla " + drools.getRule().getName() + " ejecutada");
 end
