@@ -29,12 +29,18 @@
     </fact-data>
     <fact-data>
       <type>respuesta</type>
-      <fieldData/>
+      <fieldData>
+        <field-data>
+          <name>resultado</name>
+          <value>123</value>
+          <nature>4</nature>
+        </field-data>
+      </fieldData>
       <name>r</name>
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>20</executionTimeResult>
+      <executionTimeResult>17</executionTimeResult>
       <numberOfRulesFired>0</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -53,7 +59,7 @@
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2019-07-04 04:48:09.791 UTC</lastRunResult>
+  <lastRunResult>2019-07-04 04:51:08.534 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.empresa.area.libranzasrg</packageName>
