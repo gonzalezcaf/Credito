@@ -4,7 +4,6 @@ import java.lang.Number;
 
 rule "R13"
 	dialect "mvel"
-	enabled true
 	agenda-group "G2"
 	when
 		emp : empresa( tipo == "PUBLICA" )
