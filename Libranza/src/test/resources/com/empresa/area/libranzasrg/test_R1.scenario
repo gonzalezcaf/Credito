@@ -43,12 +43,9 @@
       <name>res</name>
       <isModify>false</isModify>
     </fact-data>
-    <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
-      <name>G1</name>
-    </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <execution-trace>
-      <executionTimeResult>52</executionTimeResult>
-      <numberOfRulesFired>1</numberOfRulesFired>
+      <executionTimeResult>47</executionTimeResult>
+      <numberOfRulesFired>0</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
@@ -56,8 +53,8 @@
           <fieldName>resultado</fieldName>
           <expected>APROBADOR1</expected>
           <actualResult></actualResult>
-          <successResult>true</successResult>
-          <explanation>[res] field [resultado] was [APROBADOR1].</explanation>
+          <successResult>false</successResult>
+          <explanation>[res] field [resultado] was [] expected [APROBADOR1].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -67,13 +64,13 @@
     </expect-fact>
     <expect-rule>
       <ruleName>R1</ruleName>
-      <explanation>Rule [R1] was activated 1 times.</explanation>
+      <explanation>Rule [R1] was not activated. Expected it to be activated.</explanation>
       <expectedFire>true</expectedFire>
-      <successResult>true</successResult>
-      <actualResult>1</actualResult>
+      <successResult>false</successResult>
+      <actualResult>0</actualResult>
     </expect-rule>
   </fixtures>
-  <lastRunResult>2019-06-25 20:12:56.760 UTC</lastRunResult>
+  <lastRunResult>2019-07-04 01:55:48.378 UTC</lastRunResult>
   <rules/>
   <inclusive>true</inclusive>
   <packageName>com.empresa.area.libranzasrg</packageName>
