@@ -10,7 +10,7 @@
           <fieldConstraint>
             <value>$tipo_empresa</value>
             <operator>==</operator>
-            <constraintValueType>1</constraintValueType>
+            <constraintValueType>7</constraintValueType>
             <expression>
               <parts/>
               <index>2147483647</index>
@@ -28,8 +28,46 @@
         <parameters/>
       </window>
     </fact>
+    <fact>
+      <constraintList>
+        <constraints>
+          <fieldConstraint>
+            <value>$modalidad_contrato</value>
+            <operator>==</operator>
+            <constraintValueType>7</constraintValueType>
+            <expression>
+              <parts/>
+              <index>2147483647</index>
+            </expression>
+            <parameters/>
+            <factType>cliente</factType>
+            <fieldName>modalidad_contrato</fieldName>
+            <fieldType>String</fieldType>
+          </fieldConstraint>
+        </constraints>
+      </constraintList>
+      <factType>cliente</factType>
+      <isNegated>false</isNegated>
+      <window>
+        <parameters/>
+      </window>
+    </fact>
   </lhs>
-  <rhs/>
+  <rhs>
+    <assertLogical>
+      <fieldValues>
+        <fieldValue>
+          <field>resultado</field>
+          <value>$resultado</value>
+          <nature>7</nature>
+          <type>String</type>
+        </fieldValue>
+      </fieldValues>
+      <factType>respuesta</factType>
+      <boundName>r</boundName>
+      <isBound>true</isBound>
+    </assertLogical>
+  </rhs>
   <imports>
     <imports/>
   </imports>
@@ -37,12 +75,34 @@
   <isNegated>false</isNegated>
   <table>
     <entry>
+      <string>$resultado</string>
+      <list>
+        <string>6-12</string>
+        <string>6-24</string>
+      </list>
+    </entry>
+    <entry>
       <string>__ID_KOL_NAME__</string>
       <list>
         <string>1</string>
+        <string>0</string>
+      </list>
+    </entry>
+    <entry>
+      <string>$tipo_empresa</string>
+      <list>
+        <string>PUBLICA</string>
+        <string>PRIVADA</string>
+      </list>
+    </entry>
+    <entry>
+      <string>$modalidad_contrato</string>
+      <list>
+        <string>FIJO</string>
+        <string>VARIABLE</string>
       </list>
     </entry>
   </table>
   <idCol>1</idCol>
-  <rowsCount>1</rowsCount>
+  <rowsCount>2</rowsCount>
 </rule>
