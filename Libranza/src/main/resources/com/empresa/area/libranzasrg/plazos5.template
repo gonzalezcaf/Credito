@@ -8,7 +8,7 @@
       <constraintList>
         <constraints>
           <fieldConstraint>
-            <value>$1</value>
+            <value>$abc</value>
             <operator>==</operator>
             <constraintValueType>1</constraintValueType>
             <expression>
@@ -33,7 +33,7 @@
       <constraintList>
         <constraints>
           <fieldConstraint>
-            <value>$2</value>
+            <value>$xyz</value>
             <operator>==</operator>
             <constraintValueType>1</constraintValueType>
             <expression>
@@ -68,7 +68,7 @@
       <fieldValues>
         <fieldValue>
           <field>resultado</field>
-          <value>$3</value>
+          <value>$qwe</value>
           <nature>1</nature>
           <type>String</type>
         </fieldValue>
