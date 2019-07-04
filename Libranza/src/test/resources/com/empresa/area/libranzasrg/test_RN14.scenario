@@ -43,9 +43,12 @@
       <name>res</name>
       <isModify>false</isModify>
     </fact-data>
+    <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
+      <name>G2</name>
+    </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <execution-trace>
-      <executionTimeResult>43</executionTimeResult>
-      <numberOfRulesFired>0</numberOfRulesFired>
+      <executionTimeResult>36</executionTimeResult>
+      <numberOfRulesFired>1</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
@@ -53,8 +56,8 @@
           <fieldName>resultado</fieldName>
           <expected>NEGADO</expected>
           <actualResult></actualResult>
-          <successResult>false</successResult>
-          <explanation>[respuesta] field [resultado] was [] expected [NEGADO].</explanation>
+          <successResult>true</successResult>
+          <explanation>[respuesta] field [resultado] was [NEGADO].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -63,7 +66,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2019-06-12 02:45:22.628 UTC</lastRunResult>
+  <lastRunResult>2019-07-04 02:00:58.805 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.empresa.area.libranzasrg</packageName>
