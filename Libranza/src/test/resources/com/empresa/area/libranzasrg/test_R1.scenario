@@ -44,7 +44,7 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>9</executionTimeResult>
+      <executionTimeResult>20</executionTimeResult>
       <numberOfRulesFired>1</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -70,7 +70,7 @@
       <actualResult>1</actualResult>
     </expect-rule>
   </fixtures>
-  <lastRunResult>2019-07-04 08:00:34.574 UTC</lastRunResult>
+  <lastRunResult>2019-07-04 08:46:45.918 UTC</lastRunResult>
   <rules/>
   <inclusive>true</inclusive>
   <packageName>com.empresa.area.libranzasrg</packageName>
