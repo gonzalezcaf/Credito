@@ -33,20 +33,27 @@
       <name>r</name>
       <isModify>false</isModify>
     </fact-data>
-    <execution-trace/>
+    <execution-trace>
+      <executionTimeResult>20</executionTimeResult>
+      <numberOfRulesFired>0</numberOfRulesFired>
+    </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>resultado</fieldName>
           <expected>6-24</expected>
+          <actualResult></actualResult>
+          <successResult>false</successResult>
+          <explanation>[r] field [resultado] was [] expected [6-24].</explanation>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
       </fieldValues>
       <name>r</name>
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
+  <lastRunResult>2019-07-04 04:48:09.791 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.empresa.area.libranzasrg</packageName>
