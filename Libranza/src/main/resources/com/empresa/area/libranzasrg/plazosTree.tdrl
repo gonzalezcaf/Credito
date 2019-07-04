@@ -1,2 +1,10 @@
 package com.empresa.area.libranzasrg;
 
+rule "plazosTree_0"
+	when 
+		e : empresa(tipo == "PUBLICA")
+		cliente(modalidad_contrato == "FIJO")
+		r : respuesta()
+	then 
+		r.setPlazo( "6-12 meses" );
+end
