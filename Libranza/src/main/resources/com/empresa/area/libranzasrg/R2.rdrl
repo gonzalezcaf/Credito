@@ -11,4 +11,5 @@ rule "R2"
 	then
 		res.setResultado( "APROBADO" );
 		System.out.println("Regla " + drools.getRule().getName() + " ejecutada");
+		drools.setFocus("G2");
 end
