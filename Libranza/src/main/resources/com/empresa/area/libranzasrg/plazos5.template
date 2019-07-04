@@ -111,9 +111,10 @@
         <string>24</string>
         <string>25</string>
         <string>26</string>
+        <string>27</string>
       </list>
     </entry>
   </table>
-  <idCol>26</idCol>
-  <rowsCount>26</rowsCount>
+  <idCol>27</idCol>
+  <rowsCount>27</rowsCount>
 </rule>
