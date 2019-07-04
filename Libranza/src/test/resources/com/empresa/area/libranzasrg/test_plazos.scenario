@@ -1,5 +1,5 @@
 <scenario>
-  <name>test_plazos5.scenario</name>
+  <name>test_plazos.scenario</name>
   <maxRuleFirings>100000</maxRuleFirings>
   <globals/>
   <fixtures>
@@ -28,16 +28,17 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>19</executionTimeResult>
+      <executionTimeResult>28</executionTimeResult>
       <numberOfRulesFired>2</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>resultado</fieldName>
-          <expected>6-12</expected>
-          <successResult>true</successResult>
-          <explanation>[respuesta] field [resultado] was [6-12].</explanation>
+          <expected>6-12 meses</expected>
+          <actualResult>6-12</actualResult>
+          <successResult>false</successResult>
+          <explanation>[respuesta] field [resultado] was [6-12] expected [6-12 meses].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -46,7 +47,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2019-07-04 07:32:18.158 UTC</lastRunResult>
+  <lastRunResult>2019-07-04 09:29:52.262 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.empresa.area.libranzasrg</packageName>
