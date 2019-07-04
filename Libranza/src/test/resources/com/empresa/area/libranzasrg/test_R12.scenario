@@ -35,7 +35,7 @@
         </field-data>
         <field-data>
           <name>edad</name>
-          <value>19</value>
+          <value>20</value>
           <nature>4</nature>
         </field-data>
       </fieldData>
@@ -52,8 +52,8 @@
       <name>G2</name>
     </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <execution-trace>
-      <executionTimeResult>34</executionTimeResult>
-      <numberOfRulesFired>1</numberOfRulesFired>
+      <executionTimeResult>19</executionTimeResult>
+      <numberOfRulesFired>0</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
@@ -61,8 +61,8 @@
           <fieldName>resultado</fieldName>
           <expected>APROBADO</expected>
           <actualResult></actualResult>
-          <successResult>true</successResult>
-          <explanation>[respuesta] field [resultado] was [APROBADO].</explanation>
+          <successResult>false</successResult>
+          <explanation>[respuesta] field [resultado] was [] expected [APROBADO].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -71,7 +71,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2019-06-17 14:44:15.210 UTC</lastRunResult>
+  <lastRunResult>2019-07-04 08:05:35.890 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.empresa.area.libranzasrg</packageName>
