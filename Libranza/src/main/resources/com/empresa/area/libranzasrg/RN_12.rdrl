@@ -10,5 +10,5 @@ rule "RN_12"
 		cli : cliente( modalidad_contrato == "INDEFINIDO" && respuesta_cr in ( 0, 4, 7 ) && smmlv >= 2 && ( edad < 18 || edad > 75 ))
 		res : respuesta( )
 	then
-		res.setResultado( "NEGADORN12" );
+		res.setResultado( "NEGADO" );
 end
