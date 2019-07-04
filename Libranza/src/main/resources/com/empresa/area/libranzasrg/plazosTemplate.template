@@ -1,12 +1,7 @@
 <rule>
   <name>plazosTemplate</name>
   <modelVersion>1.0</modelVersion>
-  <attributes>
-    <attribute>
-      <attributeName>enabled</attributeName>
-      <value>true</value>
-    </attribute>
-  </attributes>
+  <attributes/>
   <metadataList/>
   <lhs>
     <fact>
