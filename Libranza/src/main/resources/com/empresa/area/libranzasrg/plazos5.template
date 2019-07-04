@@ -99,7 +99,7 @@
       <string>$modalidad_contrato</string>
       <list>
         <string>FIJO</string>
-        <string>VARIABLE</string>
+        <null/>
       </list>
     </entry>
   </table>
