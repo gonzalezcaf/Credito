@@ -52,7 +52,7 @@
       <name>G2</name>
     </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <execution-trace>
-      <executionTimeResult>17</executionTimeResult>
+      <executionTimeResult>20</executionTimeResult>
       <numberOfRulesFired>1</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -71,7 +71,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2019-07-04 08:07:18.852 UTC</lastRunResult>
+  <lastRunResult>2019-07-04 08:50:35.154 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.empresa.area.libranzasrg</packageName>
