@@ -51,7 +51,7 @@
       <fieldValues>
         <expect-field>
           <fieldName>resultado</fieldName>
-          <expected>APROBADOR1</expected>
+          <expected>APROBADO</expected>
           <actualResult></actualResult>
           <successResult>false</successResult>
           <explanation>[res] field [resultado] was [] expected [APROBADOR1].</explanation>
