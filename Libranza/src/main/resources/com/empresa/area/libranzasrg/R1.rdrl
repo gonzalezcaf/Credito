@@ -9,7 +9,7 @@ rule "R1"
 		cli : cliente( modalidad_contrato == "INDEFINIDO" && categoria_contrato == "CAT1" && respuesta_cr in ( 0, 4, 7 ) )
 		res : respuesta( )
 	then
-		res.setResultado( "APROBADOR1" );
+		res.setResultado( "APROBADO" );
 		System.out.println("Regla " + drools.getRule().getName() + " ejecutada");
 		drools.setFocus("G2");
 end
