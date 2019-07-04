@@ -14,6 +14,10 @@ public class respuesta implements java.io.Serializable
    @org.kie.api.definition.type.Label("resultado")
    private java.lang.String resultado;
 
+   @org.kie.api.definition.type.Description(value = "El valor del plazo asignado para la libranza aprobada")
+   @org.kie.api.definition.type.Label(value = "plazo")
+   private java.lang.String plazo;
+
    public respuesta()
    {
    }
@@ -28,9 +32,20 @@ public class respuesta implements java.io.Serializable
       this.resultado = resultado;
    }
 
-   public respuesta(java.lang.String resultado)
+   public java.lang.String getPlazo()
+   {
+      return this.plazo;
+   }
+
+   public void setPlazo(java.lang.String plazo)
+   {
+      this.plazo = plazo;
+   }
+
+   public respuesta(java.lang.String resultado, java.lang.String plazo)
    {
       this.resultado = resultado;
+      this.plazo = plazo;
    }
 
 }
